@@ -1,6 +1,6 @@
 import std;
 import std.algorithm : sort;
-/*
+/**
  * Link: https://www.geeksforgeeks.org/problems/majority-vote/1
  * 
  * Majority Element II
@@ -28,16 +28,19 @@ import std.algorithm : sort;
  * Constraint:
  * 1 <= arr.size() <= 10^6
  * -10^9 <= arr[i] <= 10^9
- * 
-*/
+ */
 
-/*
+/**
  * Returns an array of major numbers where each number represents a candidate whos amount of votes greater than one-third of the total votes.
  *
- * @param array array of votes
- * @return an array of major numbers
  * {@code array}
-*/
+ *
+ * Params:
+ * array = array of votes
+ *
+ * Returns:
+ * an array of major numbers
+ */
 int[] find_majority(int[] array) {
     int[int] counter = new int[int];
 

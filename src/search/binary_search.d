@@ -1,4 +1,4 @@
-/*
+/**
 *	Binary search - is a classic algorithm for finding an element
 *	in a sorted array, working in O(log n) time.
 *	1. First you need to find the middle in the array. The obtained value will
